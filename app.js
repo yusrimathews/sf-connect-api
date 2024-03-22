@@ -18,7 +18,7 @@ app.use(express.json());
 
 // Configure PostgreSQL database
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URI,
+  connectionString: process.env.DATABASE_URL,
   ssl: {
     rejectUnauthorized: false // Necessary for Heroku
   }
