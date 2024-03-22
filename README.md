@@ -30,5 +30,5 @@ npm start
 | Variable | Description | Required | Sample Value |
 |---|---|---|---|
 | NODE_ENV | Environment identifier used for conditional logic. | ❌ | staging |
-| PORT | Express server port. | ❌ | postgres://... |
-| DATABASE_URL | PostgreSQL database URI. | ✅ | https://xyz.onrender.com/ |
+| PORT | Express server port. | ❌ |  |
+| DATABASE_URL | PostgreSQL database URI. | ✅ | postgres://... |
