@@ -1,0 +1,22 @@
+{
+  "name": "sf-connect-api",
+  "version": "1.0.0",
+  "description": "Create your own Salesforce/ Heroku Connect API server",
+  "main": "app.js",
+  "scripts": {
+    "serve": "nodemon --watch . app.js",
+    "start": "node app.js"
+  },
+  "author": "Yusri Mathews",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "helmet": "^7.1.0",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

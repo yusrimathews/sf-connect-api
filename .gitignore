@@ -1,0 +1,11 @@
+# Dependency directory
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+
+# Log file
+npm-debug.log*
